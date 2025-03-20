@@ -10,7 +10,6 @@ const Navbar = () =>{
                 </h1>
                 <p>Développeur FullStack</p>
             </Section >
-
             <nav>
                 <ul></ul>
             </nav>

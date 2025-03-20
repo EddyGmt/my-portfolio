@@ -38,7 +38,6 @@ const Experience = () => {
         dateFin:"",
         type:""
     },
-
 ];
   return (
     <Section className="scroll-smooth flex flex-col items-center justify-start h-screen">

@@ -9,8 +9,7 @@ const Hero = () => {
           src={
             "https://media.licdn.com/dms/image/v2/D4E03AQEqpibASvO9bA/profile-displayphoto-shrink_800_800/B4EZSO2HqoGwAg-/0/1737563340179?e=1747872000&v=beta&t=sow1xVG5qs6k7Ny0nftDa_hXaq9G9A4J74YMB0LWN2Y"
           }
-          alt="Eddy G"
-        />
+          alt="Eddy G"/>
         <img
           className="relative z-10 rounded-full lg:max-w-[70%] max-w-[60%] mx-auto outline outline-[.7rem] outline-offset-[.1rem] outline-rose-400/30"
           src={

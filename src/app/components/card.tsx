@@ -4,7 +4,7 @@ interface CardProps {
   title: string;
   description: string;
   img: string;
-  lienGit: string;
+  lienGit?: string;
   lienDemo?: string;
 }
 

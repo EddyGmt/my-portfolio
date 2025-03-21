@@ -9,7 +9,7 @@ const Projects = () => {
       description: "",
       lien: "",
       demo: "",
-      img: "",
+      img: "https://www.les-trafiquantes.fr/wp-content/uploads/2022/04/webp-format-image-google.webp",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const Projects = () => {
       description: "",
       lien: "",
       demo: "",
-      img: "",
+      img: "https://www.les-trafiquantes.fr/wp-content/uploads/2022/04/webp-format-image-google.webp",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const Projects = () => {
       description: "",
       lien: "",
       demo: "",
-      img: "",
+      img: "https://www.les-trafiquantes.fr/wp-content/uploads/2022/04/webp-format-image-google.webp",
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const Projects = () => {
       description: "",
       lien: "",
       demo: "",
-      img: "",
+      img: "https://www.les-trafiquantes.fr/wp-content/uploads/2022/04/webp-format-image-google.webp",
     },
   ];
   return (

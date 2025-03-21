@@ -1,9 +1,8 @@
 import Image from "next/image";
-import Navbar from "./components/navbar";
 import Hero from "./components/hero";
-import Projects from "./components/projects";
-import Skills from "./components/skills";
 import Experience from "./components/experience";
+import Skills from "./components/skills";
+import Projects from "./components/projects";
 
 export default function Home() {
   return (

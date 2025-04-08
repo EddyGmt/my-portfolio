@@ -20,9 +20,8 @@ const Card: React.FC<CardProps> = ({ title, description, img, lienGit }) => {
                 -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
           <a
             href={lienGit}
-            className="bg-black text-white py-2 px-5"
-            target="blank"
-          >
+            className="text-white py-2 px-5"
+            target="blank">
             Lien Git
           </a>
         </div>

@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      titre: "Plateforme de paiment",
+      titre: "Plateforme de paiement",
       description: "",
       lien: "",
       demo: "",

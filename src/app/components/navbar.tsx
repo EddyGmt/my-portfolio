@@ -6,7 +6,7 @@ const Navbar = () =>{
         <header className='sticky top-0'>
             <Section className='flex items-baseline'>
                 <h1 className=''> 
-                    Eddy G 
+                    Eddy G
                 </h1>
                 <p>Développeur FullStack</p>
             </Section >

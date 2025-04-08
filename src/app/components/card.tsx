@@ -5,7 +5,7 @@ interface CardProps {
   description: string;
   img: string;
   lienGit?: string;
-  lienDemo?: string;
+  lienDemo?: string; 
 }
 
 const Card: React.FC<CardProps> = ({ title, description, img, lienGit }) => {

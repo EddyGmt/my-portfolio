@@ -8,4 +8,5 @@ const Section = (props: PropsWithChildren<{className?:string}>) =>{
         </section>
     );
 }
+
 export default Section;

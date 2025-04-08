@@ -50,8 +50,7 @@ const Hero = () => {
             <li>
               <a
                 href="https://open.spotify.com/show/3rYk7Z09X2imbNKLzxJBnS?si=817330cc962341da"
-                target="blank"
-              >
+                target="blank">
                 Podcast Spotify
               </a>
             </li>

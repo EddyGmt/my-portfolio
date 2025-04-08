@@ -42,7 +42,7 @@ const Experience = () => {
   return (
     <Section className="scroll-smooth flex flex-col items-center justify-start h-screen">
       <h2 className="text-center w-full mt-10 text-3xl font-bold">
-        Mes expériences
+        Mes expériences 
       </h2>
       <div className="m-auto mt-10 flex col-span-2 h-full w-full justify-center rounded-lg shadow-xl border-15">
         Exemple

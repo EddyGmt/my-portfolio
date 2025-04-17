@@ -1,4 +1,7 @@
 import image from "../../../public/img/imgEddy.jpg";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSpotify } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -9,7 +12,8 @@ const Hero = () => {
           src={
             "https://media.licdn.com/dms/image/v2/D4E03AQEqpibASvO9bA/profile-displayphoto-shrink_800_800/B4EZSO2HqoGwAg-/0/1737563340179?e=1747872000&v=beta&t=sow1xVG5qs6k7Ny0nftDa_hXaq9G9A4J74YMB0LWN2Y"
           }
-          alt="Eddy G"/>
+          alt="Eddy G"
+        />
         <img
           className="relative z-10 rounded-full lg:max-w-[70%] max-w-[60%] mx-auto outline outline-[.7rem] outline-offset-[.1rem] outline-rose-400/30"
           src={
@@ -39,19 +43,20 @@ const Hero = () => {
           <ul className="flex justify-start justify-around">
             <li>
               <a href="https://www.linkedin.com/in/eddy-gomet/" target="blank">
-                LinkedIn
+                <FaLinkedin size={50} />
               </a>
             </li>
             <li>
               <a href="https://github.com/EddyGmt" target="blank">
-                Github
+                <FaGithub size={50} />
               </a>
             </li>
             <li>
               <a
                 href="https://open.spotify.com/show/3rYk7Z09X2imbNKLzxJBnS?si=817330cc962341da"
-                target="blank">
-                Podcast Spotify
+                target="blank"
+              >
+                <FaSpotify size={50}/>
               </a>
             </li>
           </ul>

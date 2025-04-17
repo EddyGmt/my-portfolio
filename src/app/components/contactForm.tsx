@@ -6,7 +6,7 @@ const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
   const [responseMessage, setResponseMessage] = useState("");
   
   const onSubmit =  async (e: FormEvent) => {
@@ -70,7 +70,7 @@ const ContactForm = () => {
               className="w-full text-slate-900 rounded-md px-2 border text-sm pt-2.5 outline-none focus:border-blue-500"
             ></textarea>
             <button type="submit" className="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-[15px] font-medium px-4 py-2 w-full !mt-6">
-              {isLoading ? "Envoi en cours..." : "Envoyer le mail"}
+              Envoyer le mail
             </button>
           </form>
         </div>

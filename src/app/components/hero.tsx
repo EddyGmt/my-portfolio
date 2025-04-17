@@ -1,4 +1,3 @@
-import image from "../../../public/img/imgEddy.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

@@ -1,5 +1,3 @@
-import { Span } from "next/dist/trace";
-import { space } from "postcss/lib/list";
 import React, { JSX } from "react";
 import {
   FaGithub,

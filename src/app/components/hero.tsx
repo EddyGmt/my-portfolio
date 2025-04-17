@@ -1,6 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -31,9 +32,9 @@ const Hero = () => {
           </span>
         </h3>
         <p>
-          Issu d'un master en Ingénierie du web à l'ESGI et d'une première
-          expérience en alternance en tant que développeur front chez L&A
-          Projets informatique. Je suis maitenant à la recherche de nouveaux
+          Issu d&apos;un master en Ingénierie du web à l&apos;ESGI et d'une
+          première expérience en alternance en tant que développeur front chez
+          L&A Projets informatique. Je suis maitenant à la recherche de nouveaux
           challenges dans un nouveau cadre affin de parfaire mes acquis autant
           scolaire que professionnel mais également évoluer dans de nouvelles
           perspectives.
@@ -55,7 +56,7 @@ const Hero = () => {
                 href="https://open.spotify.com/show/3rYk7Z09X2imbNKLzxJBnS?si=817330cc962341da"
                 target="blank"
               >
-                <FaSpotify size={50}/>
+                <FaSpotify size={50} />
               </a>
             </li>
           </ul>

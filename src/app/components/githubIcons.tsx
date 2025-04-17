@@ -1,4 +1,4 @@
-import { ComponentPropsWithoutRef, ComponentPropsWithRef } from "react";
+import { ComponentPropsWithoutRef } from "react";
 
 const GithubIcons = (
   props: ComponentPropsWithoutRef<"svg"> & { size?: number }

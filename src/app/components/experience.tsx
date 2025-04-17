@@ -50,7 +50,7 @@ const Experience = () => {
       <div className="flex-1" />
       <div className="m-auto mt-10 flex col-span-2 h-full w-full justify-center rounded-lg shadow-xl border-15">
         <p>
-          Issu d&apos;un master en Ingénierie du web à l&apos;ESGI et d'une
+          Issu d&apos;un master en Ingénierie du web à l&apos;ESGI et d&apos;une
           première expérience en alternance en tant que développeur front chez
           L&A Projets informatique. Je suis maitenant à la recherche de nouveaux
           challenges dans un nouveau cadre affin de parfaire mes acquis autant

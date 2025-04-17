@@ -1,7 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaSpotify } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -32,7 +31,7 @@ const Hero = () => {
           </span>
         </h3>
         <p>
-          Issu d&apos;un master en Ingénierie du web à l&apos;ESGI et d'une
+          Issu d&apos;un master en Ingénierie du web à l&apos;ESGI et d&apos;une
           première expérience en alternance en tant que développeur front chez
           L&A Projets informatique. Je suis maitenant à la recherche de nouveaux
           challenges dans un nouveau cadre affin de parfaire mes acquis autant

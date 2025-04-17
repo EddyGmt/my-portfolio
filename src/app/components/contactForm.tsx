@@ -70,7 +70,7 @@ const ContactForm = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Votre Message..."
-              rows="6"
+              rows={6}
               className="w-full text-slate-900 rounded-md px-2 border text-sm pt-2.5 outline-none focus:border-blue-500"
             ></textarea>
             <button

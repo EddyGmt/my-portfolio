@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Section from "./section";
 import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {

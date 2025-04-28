@@ -6,7 +6,6 @@ import {
   FaVuejs,
   FaCss3Alt,
 } from "react-icons/fa";
-import {motion} from 'framer-motion'
 
 interface CardProps {
   title?: string;

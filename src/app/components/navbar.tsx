@@ -3,13 +3,10 @@ import { useState } from "react";
 import Link from "next/link";
 import {
   FaGithub,
-  FaBars,
-  FaTimes,
   FaLinkedin,
   FaSpotify,
 } from "react-icons/fa";
 import { BiMenu, BiX } from "react-icons/bi";
-import { div } from "framer-motion/client";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

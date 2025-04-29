@@ -1,9 +1,9 @@
 import { PropsWithChildren } from "react";
 import {cn} from "@/lib/utils"
 
-const Section = (props: PropsWithChildren<{className?:string}>) =>{
+const Section = (props: PropsWithChildren<{className?:string, id?:string}>) =>{
     return(
-        <section className={cn("max-w-3xl px-4 m-auto", props.className)}>
+        <section className={cn("px-4 m-auto", props.className)}>
             {props.children}        
         </section>
     );

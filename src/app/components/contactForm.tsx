@@ -35,7 +35,7 @@ const ContactForm = () => {
     console.log("data =>", name, email, message);
   };
   return (
-    <Section className="h-screen pt-40">
+    <Section className="h-screen pt-40 max-w-3xl">
       <div className="m-auto p-10 bg-white flex">
         <div className="block">
           <h2

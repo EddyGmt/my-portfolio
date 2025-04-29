@@ -17,7 +17,13 @@ const Hero = () => {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Bienvenue
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4E03AQEqpibASvO9bA/profile-displayphoto-shrink_800_800/B4EZSO2HqoGwAg-/0/1737563340179?e=1751500800&v=beta&t=wbTfw3z5OgZ0SjS5SiN2KCREyKJLPn74PKw_kxNoAys"
+            alt="Image Eddy"
+            className="rounded-full"
+            width={400}
+            height={400}
+          />
         </motion.h1>
         <motion.p
           className="w-1/2 text-xl text-center tracking-wide"

@@ -14,7 +14,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="fixed top-0 z-50 flex w-full items center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdrop-blur md:justify-evenly">
+    <nav className="fixed top-0 z-50 flex w-full items center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-4 text-white backdrop-blur md:justify-evenly">
       <a
         href="#home"
         className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100 "
@@ -48,7 +48,7 @@ const Navbar = () => {
           Contact
         </Link>
       </ul>
-      <ul className="hidden md:flex gap-5">
+      <ul className="hidden md:flex gap-5 h-full">
         <Link
           href="https://github.com/EddyGmt"
           className="pt-1"
@@ -79,7 +79,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
-          className={`fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border-gray-800 bg-black bg-opacity-90 p-8 ${isOpen ? "block" : "hidden"}`}
+          className={`fixed right-0 top-[70px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border-gray-800 bg-black bg-opacity-90 p-8 ${isOpen ? "block" : "hidden"}`}
         >
           <ul className="flex flex-col gap-8">
             <Link

@@ -4,7 +4,7 @@ import Section from "./section";
 const Skills = () => {
   return (
     <Section className="scroll-smooth flex flex-col items-center justify-start h-screen">
-      <h2 className="text-center w-full mt-10 text-3xl font-bold" id="stack">
+      <h2 className="text-center w-full mt-20 text-3xl font-bold scroll-mt-24" id="stack">
         Ma Stack
       </h2>
       {/* Grid responsive */}

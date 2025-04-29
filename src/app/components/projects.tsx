@@ -1,98 +1,75 @@
 "use client";
-import { AnimatePresence, motion } from "framer-motion";
 import Card from "./card";
 import Section from "./section";
-import CardDetail from "./carddetails";
-import { useState } from "react";
 
 const Projects = () => {
   const projects = [
     {
       id: "1",
       titre: "Liste de cadeaux",
-      description: "",
+      description: "Plateforme permettant de créer des listes de cadeaux pour n'importe quel événement, listes disponible uniquement par lien d'invitation. Possibilité de scrapper des liens amazon afin de retrouver toutes les informations et de les réserver également (afin d'éciter toutes confusions).",
       lien: "https://github.com/EddyGmt/challenge-myGift",
       demo: "",
       img: "https://etudestech.com/wp-content/uploads/2021/07/19682.png",
       stacks: ["Symfony", "Tailwind", "Docker"],
+      height: "h-60",
+      color: "bg-red-400",
     },
     {
       id: "2",
       titre: "Kermesse",
-      description: "",
+      description: "Application mobile permettant de gérer une kermesse, participer à une tombola (achat de tocket), mais également historiser les activités et gains et paratager ses jetons entre parents et enfants.",
       lien: "https://github.com/EddyGmt/challenge-kermesse",
       demo: "",
       img: "https://etudestech.com/wp-content/uploads/2021/07/19682.png",
       stacks: ["Flutter", "Golang", "Docker", "PostgresSQl"],
+      height: "h-80",
+      color: "bg-blue-400",
     },
     {
       id: "3",
       titre: "Appli de voyage",
-      description: "",
+      description: "Application mobile regroupant quelues hôtels qui permet de créer un groupe de voyage ainsi qu'une roadmap d'activités et d'hôtel entre le créateur du groupe et ses invités, possobiliés de communiquer en tant rééls pour chaque groupes.",
       lien: "https://github.com/chiekhou/challenge-golang-flutter",
       demo: "",
       img: "https://etudestech.com/wp-content/uploads/2021/07/19682.png",
       stacks: ["Flutter", "Golang", "Docker", "PostgresSQl"],
+      height: "h-72",
+      color: "bg-green-400",
     },
     {
       id: "4",
       titre: "Plateforme de paiement",
-      description: "",
+      description: "Plateforme de paiement type 'Stripe', le marchand peut lier son compte à un autre site marchand, ce qui permettra d'historiser les paiements des clients. Possiblités de faire des achats directs ou non (accord de paiement du marchand).",
       lien: "",
       demo: "",
       img: "https://etudestech.com/wp-content/uploads/2021/07/19682.png",
       stacks: ["VueJS", "NodeJS", "Docker", "PostgresSQl", "MongoDB"],
+      height: "h-64",
+      color: "bg-purple-400",
     },
   ];
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  // const [selectedId, setSelectedId] = useState<string | null>(null);
   return (
-    <Section className="scroll-smooth flex flex-col items-center justify-start h-screen">
-      <h2 className="text-center w-full mt-10 text-3xl font-bold" id="projects">
+    <Section className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-4 md:px-14 md:py-14">
+      <h2
+        className="text-center w-full mt-10 text-3xl font-bold mb-10 scroll-mt-24"
+        id="projects">
         Mes projets
       </h2>
-      <div className="flex flew-wrap justify-center gap-8 mt-10">
-        {projects.map((exp) => (
+      <div className="flex w-full max-w-[1000px] flex-col gap-16 text-white">
+        {projects.map((project, index) => (
           <Card
-            key={exp.id}
-            title={exp.titre}
-            description={exp.description}
-            img={exp.img}
-            lienGit={exp.lien}
-            stacks={exp.stacks}
+            key={index}
+            title={project.titre}
+            description={project.description}
+            img={project.img}
+            lienGit={project.lien}
+            stacks={project.stacks}
           />
         ))}
       </div>
     </Section>
   );
-}
-
-//   return (
-//     <Section className="scroll-smooth flex justify-start h-screen w-full">
-//       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-6 gap-6 p-6 w-full">
-//         {projects.map((project, index) => (
-//           <motion.div
-//             layoutId={project.id}
-//             key={project.id}
-//             onClick={() => setSelectedId(project.id)}
-//             className={`
-//           ${index % 2 === 0 ? "col-span-3" : "col-span-2"} 
-//           row-span-1 bg-white rounded-lg shadow-md hover:scale-105 transition-transform cursor-pointer
-//         `}
-//           >
-//             <Card {...project} />
-//           </motion.div>
-//         ))}
-
-//         <AnimatePresence>
-//           {selectedId && (
-//             <CardDetail
-//               project={projects.find((p) => p.id === selectedId)!}
-//               onClose={() => setSelectedId(null)}
-//             />
-//           )}
-//         </AnimatePresence>
-//       </div>
-//     </Section>
-//   );
-// };
+};
 export default Projects;

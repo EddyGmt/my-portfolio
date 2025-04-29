@@ -40,16 +40,16 @@ const Experience = () => {
   //   },
   // ];
   return (
-    <Section className="flex flex-col items-center justify-start h-screen">
+    <Section className="flex flex-col items-center justify-start max-w-3xl">
       <h2
-        className="scroll-smooth text-center w-full mt-10 text-3xl font-bold"
+        className="scroll-smooth text-center w-full mt-10 text-3xl font-bold scroll-mt-24"
         id="about"
       >
         A propos
       </h2>
       <div className="flex-1" />
       <div className="m-auto mt-10 flex col-span-2 h-full w-full justify-center rounded-lg shadow-xl border-15">
-        <p>
+        <p className="text-center">
           Issu d&apos;un master en Ingénierie du web à l&apos;ESGI et d&apos;une
           première expérience en alternance en tant que développeur front chez
           L&A Projets informatique. Je suis maitenant à la recherche de nouveaux

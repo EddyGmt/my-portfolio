@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 interface CardProps {
   title?: string;
@@ -37,26 +38,30 @@ const Card: React.FC<CardProps> = ({
 
       <div className="flex flex-col gap-5">
         <div className="flex flex-col gap-3">
-          <div className="text-xl font-semibold text-center md:text-left">
+          <div className="flex gap-4 text-xl font-semibold justify-center sm:justify-start text-center sm:text-left">
             {title}
+            <a href={lienGit} target="_blank" rel="noopener noreferrer">
+              <FaGithub className="mt-1" />
+            </a>
           </div>
-          <p className="text-white text-center md:text-left">{description}</p>
+          <p className="text-white text-center sm:text-left">{description}</p>
         </div>
-        <div className="flex flex-wrap gap-8">
-          {stacks && (
-            <div className="flex gap-2 flex-wrap justify-center mt-2">
+
+        {stacks && (
+          <div className="flex justify-center sm:justify-start">
+            <div className="flex flex-wrap gap-2 mt-2 justify-center sm:justify-start">
               {stacks.map((stack, i) => (
                 <span
                   key={i}
                   title={stack}
-                  className="rounded-lg bg-blue-500 text-white p-1 justify-center items-center md:justify-start"
+                  className="rounded-lg bg-blue-500 text-white p-1"
                 >
                   {stack}
                 </span>
               ))}
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );

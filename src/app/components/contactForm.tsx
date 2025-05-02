@@ -58,6 +58,7 @@ const ContactForm = () => {
               placeholder="Nom"
               type="text"
               className="w-full text-slate-900 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
+              required
             />
             <input
               value={email}
@@ -65,6 +66,7 @@ const ContactForm = () => {
               placeholder="Email"
               type="email"
               className="w-full text-slate-900 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
+              required
             />
             <textarea
               value={message}
@@ -72,6 +74,7 @@ const ContactForm = () => {
               placeholder="Votre Message..."
               rows={6}
               className="w-full text-slate-900 rounded-md px-2 border text-sm pt-2.5 outline-none focus:border-blue-500"
+              required
             ></textarea>
             <button
               type="submit"

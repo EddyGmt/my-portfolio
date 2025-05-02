@@ -3,7 +3,7 @@ import Section from "./section";
 
 const Skills = () => {
   return (
-    <Section className="scroll-smooth flex flex-col items-center justify-start h-screen">
+    <Section className="scroll-smooth flex flex-col items-center justify-start h-screen mb-20 lg:mb-0">
       <h2 className="text-center w-full mt-20 text-3xl font-bold scroll-mt-24" id="stack">
         Ma Stack
       </h2>
